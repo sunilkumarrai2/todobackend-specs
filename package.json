@@ -1,0 +1,28 @@
+{
+  "name": "todobackend-specs",
+  "version": "1.0.0",
+  "description": "Todobackend Acceptance tests",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilkumarrai2/todobackend-specs.git"
+  },
+  "author": "Sunil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilkumarrai2/todobackend-specs/issues"
+  },
+  "homepage": "https://github.com/sunilkumarrai2/todobackend-specs#readme",
+  "dependencies": {
+    "bluebird": "^3.4.3",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^3.0.2",
+    "mocha-jenkins-reporter": "^0.2.4",
+    "superagent": "^2.2.0",
+    "superagent-promise": "^1.1.0"
+  }
+}
